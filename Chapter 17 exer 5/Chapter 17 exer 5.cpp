@@ -1,0 +1,28 @@
+// Chapter 17 exer 5.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+/*Write a C++ program that lets the user enter an integer, and then
+displays a message indicating whether the given number is a multiple of
+6; it must display “NN is not a multiple of 6” otherwise (where NN is
+the given number). Assume that the user enters a non-negative
+[14] value.*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int NN;
+
+	cout << "enter the integer: ";
+	cin >> NN;
+
+	if (NN % 6 != 0) {
+		cout << "NN is not a multiple of 6 " << endl;
+
+	}
+	else {
+		cout << "NN is the given number " << endl;
+	}
+	return 0;
+}
+
