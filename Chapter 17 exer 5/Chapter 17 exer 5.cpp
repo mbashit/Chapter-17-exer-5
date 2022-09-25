@@ -15,13 +15,14 @@ int main()
 
 	cout << "enter the integer: ";
 	cin >> NN;
+    NN == NN;
 
 	if (NN % 6 != 0) {
-		cout << "NN is not a multiple of 6 " << endl;
+		cout <<  "integer is not a multiple of 6 " << endl;
 
 	}
 	else {
-		cout << "NN is the given number " << endl;
+		cout << "integer is the given number " << endl;
 	}
 	return 0;
 }
